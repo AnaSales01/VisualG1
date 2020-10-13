@@ -1,0 +1,20 @@
+Algoritmo "Multiplosde4"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna os números múltiplos de 4 do 0 ao 200.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+contador: inteiro
+
+Inicio
+
+ escreval("Seja bem-vindo(a) ao programa múltiplos de 4!")
+ para contador de 0 ate 200 passo 1 faca
+ se(contador mod 4 = 0) entao
+ escreval("Os múltiplos de 4 são: ",contador)
+ fimse
+ fimpara
+
+Fimalgoritmo
