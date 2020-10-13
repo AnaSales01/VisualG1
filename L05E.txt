@@ -1,0 +1,20 @@
+Algoritmo "Impares1a20"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna os números impares de 0 a 20.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+contador: inteiro
+
+Inicio
+
+ escreval("Seja bem-vindo(a) ao programa dos números impares do 0 a 20")
+ para contador de 0 ate 20 passo 1 faca
+ se(contador mod 2 <> 0) entao
+ escreval(contador)
+ fimse
+ fimpara
+
+Fimalgoritmo
