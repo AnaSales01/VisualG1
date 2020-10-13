@@ -1,0 +1,19 @@
+Algoritmo "Potênciasde3"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna as potências de 3, do 0 ao 15.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+R, contador: inteiro
+
+Inicio
+
+ escreval ("Seja bem-vindo a calculadora de potência do 3")
+ para contador de 0 ate 15 passo 1 faca
+ R <- contador * contador * contador
+ escreval (R)
+ fimpara
+
+Fimalgoritmo
