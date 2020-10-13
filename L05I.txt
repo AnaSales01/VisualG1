@@ -1,0 +1,22 @@
+Algoritmo "SequenciadeFibonnati"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna a sequência de Fibonacci.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+X,Y,R,contador: inteiro
+
+Inicio
+
+ escreval ("Seja bem vindo(a) ao programa sequência de Fibonacci!")
+ X <- 1
+ para contador de 1 ate 15 passo 1 faca
+ R <- x + Y
+ X <- Y
+ Y <- R
+ escreval ("A sequência Fibonacci é: ",R)
+ fimpara
+
+Fimalgoritmo
