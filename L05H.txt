@@ -1,0 +1,22 @@
+Algoritmo "CalculadoradePotencia"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna a potência do número desejado.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+R,Ex, contador: inteiro
+
+Inicio
+
+ escreval ("Seja bem vindo(a) a calculadora de potência")
+ escreval ("Digite um valor para o expoente: ")
+ leia (Ex)
+ para contador de 0 ate 15 passo 1 faca
+ R <- contador*contador*Ex
+ contador <- contador + 1
+escreval (R)
+fimpara
+
+Fimalgoritmo
