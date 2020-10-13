@@ -1,0 +1,21 @@
+Algoritmo "Tabuada de Potencia"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna os valores de potência de 15 a 200.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+ contador: inteiro
+ R: real
+
+Inicio
+
+   escreval("Seja, bem-vindo(a) à Calculadora de potência de 15 a 200!")
+   contador <- 1
+   para contador de 15 ate 200 passo 1 faca
+   R <- contador^2
+   escreval(R)
+   fimpara
+
+Fimalgoritmo
