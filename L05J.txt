@@ -1,0 +1,24 @@
+Algoritmo "Fahrenheit_Celsius"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O programa retorna o valores de Graus Fahreinheit e Celsius.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+F: real
+C, Contador: inteiro
+
+Inicio
+
+ escreval ("Olá, seja bem-vindo(a) ao programa Graus Fahrenheit/Graus Celsius!")
+ Contador <- 1
+ C <- 10
+ para Contador de 10 ate 100 passo 10 faca
+ F <- (9 * C + 160)/5
+ escreval ("Graus em Fahrenheit: ",F)
+ C <- C + 10
+ escreval ("Graus em Celsius: ",C)
+ fimpara
+
+Fimalgoritmo
