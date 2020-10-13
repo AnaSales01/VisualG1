@@ -1,0 +1,19 @@
+Algoritmo "Calculadora1a500"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O programa retorna a soma total dos números pares de 1 a 500.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 09/10/2020
+Var
+
+R, contador: inteiro
+
+Inicio
+
+ escreval("Seja bem-vindo(a) a calculadora que soma os valores pares de 1 a 500!")
+ para contador de 1 ate 500 passo 2 faca
+ R <- R + contador
+ fimpara
+ escreval("O total da soma é: ",R)
+
+Fimalgoritmo
